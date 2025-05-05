@@ -2,7 +2,20 @@
 
 
 GHDL=ghdl
-SRC=pc.vhdl reg_324.vhdl adder8bit.vhdl pc.vhdl sub8bit.vhdl full_adder.vhdl sign_extend4to16.vhdl mainALU_324.vhdl control_324.vhdl mux_324.vhdl print_module.vhdl top_324.vhdl top_324_tb.vhdl
+
+SRC=pc.vhdl \
+    reg_324.vhdl \
+    sign_extend4to16.vhdl \
+	full_adder.vhdl \
+    mainALU_324.vhdl \
+    adder8bit.vhdl \
+    sub8bit.vhdl \
+    control_324.vhdl \
+    mux_324.vhdl \
+    print_module.vhdl \
+    top_324.vhdl \
+    top_324_tb.vhdl
+
 TOP_ENTITY=top_324_tb
 WAVE_FILE=top_324.vcd
 
